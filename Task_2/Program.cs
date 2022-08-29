@@ -43,7 +43,7 @@ Double tZ2 = Math.Abs(Convert.ToDouble(Z2));
 //вычисляем расстояние между двумя точками:
 Distance = Math.Sqrt(Math.Pow((tX2-tX1), 2) + Math.Pow((tY2-tY1), 2) + Math.Pow((tZ2-tZ1), 2));
                
- Console.WriteLine("Расстояние между точками равно: " + Distance);              
+Console.WriteLine("Расстояние между точками равно: " + Distance);              
 
 
 
