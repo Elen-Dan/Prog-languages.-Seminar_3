@@ -10,8 +10,9 @@ Console.Clear();
 Console.WriteLine("Введите число для возведения в степень 3");
 
 string? Number = Console.ReadLine();
+Console.WriteLine("");
 int tempN = Convert.ToInt32(Number); // временная переменная для конвертации
 
-int i;
-for (i=1; i <= tempN; i++)
+for (int i = 1; i !<= tempN; i=i+1)
     Console.WriteLine(Math.Pow(i, 3));
+    
